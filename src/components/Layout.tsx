@@ -134,8 +134,6 @@ export default function Layout({ children }: LayoutProps) {
             <div>
               <h3 className="text-sm font-bold mb-4 uppercase tracking-wider">Contact</h3>
               <ul className="space-y-2 text-gray-400 text-sm">
-                <li>73 Alkham Road, ME14 5PE</li>
-                <li>Maidstone, Kent</li>
                 <li>Email: info@luke948homes.org.uk</li>
                 <li className="pt-2">
                   <span className="text-white font-bold">Emergency: 999</span>

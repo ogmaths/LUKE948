@@ -30,7 +30,6 @@ export default function HomePage() {
   const stats = [
     { icon: Target, value: "100%", label: "Ofsted Compliant" },
     { icon: Award, value: "24/7", label: "Therapeutic Support" },
-    { icon: Sparkles, value: "2", label: "Young People" },
   ];
 
   return (
@@ -136,7 +135,7 @@ export default function HomePage() {
                   Alkham House, Maidstone
                 </h2>
                 <p className="text-base sm:text-lg text-gray-600 leading-relaxed">
-                  Our home at 73 Alkham Road (ME14 5PE) provides a therapeutic and structured living environment for children who may require additional support to promote safety, consistency, emotional wellbeing, and long-term stability.
+                  Our home provides a therapeutic and structured living environment for children who may require additional support to promote safety, consistency, emotional wellbeing, and long-term stability.
                 </p>
               </div>
 

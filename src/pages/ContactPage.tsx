@@ -55,7 +55,7 @@ export default function ContactPage() {
     {
       icon: MapPin,
       title: "Location",
-      details: ["Maidstone", "Kent", "United Kingdom"],
+      details: ["Kent", "United Kingdom"],
     },
     {
       icon: Phone,

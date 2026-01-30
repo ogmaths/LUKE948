@@ -113,7 +113,7 @@ export default function AboutPage() {
                   </div>
                   <h3 className="text-lg sm:text-xl font-bold text-black group-hover:text-white mb-2 sm:mb-3 transition-colors">Alkham House</h3>
                   <p className="text-sm sm:text-base text-gray-600 group-hover:text-gray-300 transition-colors">
-                    73 Alkham Road, ME14 5PE — our purpose-built home for one child
+                    — our purpose-built home for one child
                   </p>
                 </CardContent>
               </Card>
@@ -146,7 +146,7 @@ export default function AboutPage() {
             <div className="bg-gray-50 border-2 border-black rounded-lg p-6 sm:p-8 md:p-12">
               <div className="prose prose-lg max-w-none">
                 <p className="text-lg sm:text-xl text-gray-700 leading-relaxed mb-4 sm:mb-6">
-                  Luke 9:48 Homes was established with the purpose of delivering bespoke, client-centred services by offering targeted support for vulnerable children. We operate as a children's home under one registration — <strong>Alkham House</strong> at 73 Alkham Road, ME14 5PE — registered under the Emotional and Behavioural category.
+                  Luke 9:48 Homes was established with the purpose of delivering bespoke, client-centred services by offering targeted support for vulnerable children. We operate as a children's home under one registration — <strong>Alkham House</strong> — registered under the Emotional and Behavioural category.
                 </p>
                 <p className="text-base sm:text-lg text-gray-600 leading-relaxed mb-4 sm:mb-6">
                   Our home is specifically designed to meet the needs of one child presenting with communication difficulties, sensory needs, emotional distress, and behavioural challenges linked to neurodevelopmental conditions, on a medium-to-long-term basis. We support looked after children aged 11 to 16 who are judged as particularly vulnerable by children's social care.
