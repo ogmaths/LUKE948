@@ -119,7 +119,7 @@ export default function CareersPage() {
                 <div>
                   <h2 className="text-3xl md:text-4xl font-bold text-black mb-4">Safeguarding Commitment</h2>
                   <p className="text-lg text-gray-700 leading-relaxed mb-4">
-                    Luke 9:48 Children's Home is committed to safeguarding and promoting the welfare of children and young people. 
+                    Luke 948 Children's Home is committed to safeguarding and promoting the welfare of children and young people. 
                     We expect all staff and volunteers to share this commitment.
                   </p>
                   <p className="text-lg text-gray-700 leading-relaxed mb-4">
@@ -156,7 +156,7 @@ export default function CareersPage() {
               </div>
               <h2 className="text-4xl md:text-5xl font-bold text-black mb-6">Submit Your Application</h2>
               <p className="text-xl text-gray-600">
-                Complete the form below to apply for a position at Luke 9:48 Children's Home
+                Complete the form below to apply for a position at Luke 948 Children's Home
               </p>
             </div>
 

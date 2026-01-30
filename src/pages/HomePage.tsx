@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Heart, Shield, Users, Home as HomeIcon, ArrowRight, Target, Award, Sparkles } from "lucide-react";
+import { Heart, Shield, Users, Home as HomeIcon, ArrowRight, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 
@@ -27,10 +27,7 @@ export default function HomePage() {
     },
   ];
 
-  const stats = [
-    { icon: Target, value: "100%", label: "Ofsted Compliant" },
-    { icon: Award, value: "24/7", label: "Therapeutic Support" },
-  ];
+
 
   return (
     <div className="bg-white">
@@ -39,11 +36,11 @@ export default function HomePage() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-32 md:py-40">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold mb-6 sm:mb-8 leading-tight tracking-tight">
-              Luke 9:48<br/>
+              Luke 948<br/>
               <span className="text-gray-400">Homes</span>
             </h1>
             <p className="text-base sm:text-lg md:text-xl mb-8 sm:mb-12 text-gray-300 leading-relaxed max-w-3xl mx-auto px-4">
-              A specialist children's home in Maidstone, Kent — registered under the Emotional and Behavioural category, supporting one looked after child aged 11–16 with therapeutic care, emotional support, and a structured environment for long-term stability.
+              A specialist children's home in Maidstone, Kent - registered under the Emotional and Behavioural category, supporting one looked after child aged 11–16 with therapeutic care, emotional support, and a structured environment for long-term stability.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center px-4">
               <Button asChild size="lg" className="bg-white text-black hover:bg-gray-100 text-sm sm:text-base px-6 sm:px-8 py-5 sm:py-6 w-full sm:w-auto">
@@ -59,19 +56,7 @@ export default function HomePage() {
         </div>
 
         {/* Stats Bar */}
-        <div className="border-t border-gray-800 bg-gray-900">
-          <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8">
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-8 max-w-4xl mx-auto">
-              {stats.map((stat, index) => (
-                <div key={index} className="text-center py-4 sm:py-0">
-                  <stat.icon className="h-5 w-5 sm:h-6 sm:w-6 mx-auto mb-2 text-gray-400" />
-                  <div className="text-2xl sm:text-3xl font-bold mb-1">{stat.value}</div>
-                  <div className="text-xs sm:text-sm text-gray-400 uppercase tracking-wider">{stat.label}</div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
+
       </section>
 
       {/* Core Values */}

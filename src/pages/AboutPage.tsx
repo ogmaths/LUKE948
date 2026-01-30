@@ -42,7 +42,7 @@ export default function AboutPage() {
       name: "Clinton",
       role: "Service Manager & Co-Founder",
       image: "/images/IMG_1982 3.jpg",
-      bio: "My passion for care began long before my journey in business. As a teenager, I became a full-time carer for my late father — an experience that taught me the true meaning of compassion, patience, and responsibility. Later, while working in a nursery, I discovered how much I loved creating safe, nurturing spaces where children could grow, feel supported, and thrive.\n\nThose early experiences shaped my purpose to build environments where people feel at home, understood, and valued. Over the years, I've carried that same heart into everything I do, combining my hands-on experience in care with my ability to build and manage homes that promote wellbeing and belonging.\n\nI believe that a child's environment shapes their entire future — their values, confidence, and sense of identity. Having cared for my father and faced loss at a young age, I understand the lifelong impact that love, structure, and emotional stability can create. That's why I'm dedicated to building a children's home where care isn't occasional — it's constant. A place where every child feels seen, supported, and loved 100% of the time."
+      bio: "My passion for care began long before my journey in business. As a teenager, I became a full-time carer for my late father - an experience that taught me the true meaning of compassion, patience, and responsibility. Later, while working in a nursery, I discovered how much I loved creating safe, nurturing spaces where children could grow, feel supported, and thrive.\n\nThose early experiences shaped my purpose to build environments where people feel at home, understood, and valued. Over the years, I've carried that same heart into everything I do, combining my hands-on experience in care with my ability to build and manage homes that promote wellbeing and belonging.\n\nI believe that a child's environment shapes their entire future - their values, confidence, and sense of identity. Having cared for my father and faced loss at a young age, I understand the lifelong impact that love, structure, and emotional stability can create. That's why I'm dedicated to building a children's home where care isn't occasional - it's constant. A place where every child feels seen, supported, and loved 100% of the time."
     },
     {
       name: "Ezekiel",
@@ -85,7 +85,7 @@ export default function AboutPage() {
               About Us
             </div>
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 tracking-tight px-4">
-              About Luke 9:48<br/>Homes
+              About Luke 948<br/>Homes
             </h1>
             <p className="text-base sm:text-lg md:text-xl text-gray-300 leading-relaxed px-4">
               A specialist children's home registered under the Emotional and Behavioural category, supporting looked after children aged 11-16 with therapeutic care at Alkham House, Maidstone
@@ -113,7 +113,7 @@ export default function AboutPage() {
                   </div>
                   <h3 className="text-lg sm:text-xl font-bold text-black group-hover:text-white mb-2 sm:mb-3 transition-colors">Alkham House</h3>
                   <p className="text-sm sm:text-base text-gray-600 group-hover:text-gray-300 transition-colors">
-                    — our purpose-built home for one child
+                    - our purpose-built home for one child
                   </p>
                 </CardContent>
               </Card>
@@ -146,7 +146,7 @@ export default function AboutPage() {
             <div className="bg-gray-50 border-2 border-black rounded-lg p-6 sm:p-8 md:p-12">
               <div className="prose prose-lg max-w-none">
                 <p className="text-lg sm:text-xl text-gray-700 leading-relaxed mb-4 sm:mb-6">
-                  Luke 9:48 Homes was established with the purpose of delivering bespoke, client-centred services by offering targeted support for vulnerable children. We operate as a children's home under one registration — <strong>Alkham House</strong> — registered under the Emotional and Behavioural category.
+                  Luke 948 Homes was established with the purpose of delivering bespoke, client-centred services by offering targeted support for vulnerable children. We operate as a children's home under one registration - <strong>Alkham House</strong> - registered under the Emotional and Behavioural category.
                 </p>
                 <p className="text-base sm:text-lg text-gray-600 leading-relaxed mb-4 sm:mb-6">
                   Our home is specifically designed to meet the needs of one child presenting with communication difficulties, sensory needs, emotional distress, and behavioural challenges linked to neurodevelopmental conditions, on a medium-to-long-term basis. We support looked after children aged 11 to 16 who are judged as particularly vulnerable by children's social care.
@@ -177,7 +177,7 @@ export default function AboutPage() {
                   Children who enter the care system often present with complex needs resulting from adverse childhood experiences, trauma, and disrupted attachments. These needs must be carefully assessed, understood, and addressed in order to improve long-term outcomes and support their journey toward stability and independence.
                 </p>
                 <p className="text-base sm:text-lg text-gray-600 leading-relaxed mb-4 sm:mb-6">
-                  Luke 9:48 Homes provides homes within a trauma-informed and child-centred framework. Each placement is designed to provide the safety, consistency, and attention needed to help children regulate, rebuild trust, and begin healing.
+                  Luke 948 Homes provides homes within a trauma-informed and child-centred framework. Each placement is designed to provide the safety, consistency, and attention needed to help children regulate, rebuild trust, and begin healing.
                 </p>
               </div>
             </div>
@@ -224,7 +224,7 @@ export default function AboutPage() {
             <div className="bg-black text-white rounded-lg p-6 sm:p-8">
               <h3 className="text-xl font-bold mb-4">Partnership Working</h3>
               <p className="text-gray-300 leading-relaxed">
-                We recognise the immense responsibilities faced by local authorities and the importance of collaboration across agencies. Luke 9:48 Homes works in close partnership with social workers, health professionals, educators, and other key stakeholders to contribute meaningfully to each child's assessment, care planning, intervention, and progress monitoring. At the heart of everything we do is a commitment to positive outcomes — helping children move toward a future defined by confidence, resilience, and hope.
+                We recognise the immense responsibilities faced by local authorities and the importance of collaboration across agencies. Luke 948 Homes works in close partnership with social workers, health professionals, educators, and other key stakeholders to contribute meaningfully to each child's assessment, care planning, intervention, and progress monitoring. At the heart of everything we do is a commitment to positive outcomes - helping children move toward a future defined by confidence, resilience, and hope.
               </p>
             </div>
           </div>

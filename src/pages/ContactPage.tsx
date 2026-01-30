@@ -1,55 +1,6 @@
-import { useState } from "react";
-import { MapPin, Phone, Mail, Clock, Send, ArrowRight } from "lucide-react";
-import { Card, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { Label } from "@/components/ui/label";
-import { useToast } from "@/components/ui/use-toast";
+import { MapPin, Phone, Mail, Clock, ArrowRight } from "lucide-react";
 
 export default function ContactPage() {
-  const { toast } = useToast();
-  const [formData, setFormData] = useState({
-    name: "",
-    organization: "",
-    email: "",
-    phone: "",
-    subject: "",
-    message: "",
-  });
-  const [isSubmitting, setIsSubmitting] = useState(false);
-
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setIsSubmitting(true);
-
-    // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 1500));
-
-    toast({
-      title: "Message Sent Successfully",
-      description: "We'll get back to you within 24 hours.",
-    });
-
-    setFormData({
-      name: "",
-      organization: "",
-      email: "",
-      phone: "",
-      subject: "",
-      message: "",
-    });
-    setIsSubmitting(false);
-  };
-
-  const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
-  ) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value,
-    });
-  };
 
   const contactInfo = [
     {
@@ -60,12 +11,12 @@ export default function ContactPage() {
     {
       icon: Phone,
       title: "Phone",
-      details: ["Main: 01234 567890", "Emergency: 03000 41 11 11"],
+      details: ["Main: 07497 023902", "Emergency: 03000 41 11 11"],
     },
     {
       icon: Mail,
       title: "Email",
-      details: ["info@luke948home.org.uk"],
+      details: ["info@luke948homes.co.uk"],
     },
     {
       icon: Clock,
@@ -120,130 +71,7 @@ export default function ContactPage() {
       <section className="py-16 sm:py-24 md:py-32 bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto">
-            <div className="text-center mb-12 sm:mb-16">
-              <div className="inline-block mb-3 sm:mb-4 px-3 sm:px-4 py-1.5 sm:py-2 bg-black text-white rounded-full text-xs font-bold uppercase tracking-wider">
-                Message Us
-              </div>
-              <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-black mb-4 sm:mb-6 px-4">Send Us a Message</h2>
-              <p className="text-base sm:text-lg text-gray-600 px-4">
-                Complete the form below and we'll respond within 24 hours
-              </p>
-            </div>
-
-            <Card className="border-2 border-black shadow-xl">
-              <CardContent className="pt-6 sm:pt-8 pb-6 sm:pb-8 px-4 sm:px-6 md:px-8">
-                <form onSubmit={handleSubmit} className="space-y-5 sm:space-y-6">
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-5 sm:gap-6">
-                    <div className="space-y-2">
-                      <Label htmlFor="name" className="text-black font-bold text-sm sm:text-base">Full Name *</Label>
-                      <Input
-                        id="name"
-                        name="name"
-                        value={formData.name}
-                        onChange={handleChange}
-                        required
-                        placeholder="John Smith"
-                        className="border-2 border-gray-300 focus:border-black text-sm sm:text-base"
-                      />
-                    </div>
-
-                    <div className="space-y-2">
-                      <Label htmlFor="organization" className="text-black font-bold text-sm sm:text-base">Organization *</Label>
-                      <Input
-                        id="organization"
-                        name="organization"
-                        value={formData.organization}
-                        onChange={handleChange}
-                        required
-                        placeholder="Local Authority / Agency"
-                        className="border-2 border-gray-300 focus:border-black text-sm sm:text-base"
-                      />
-                    </div>
-                  </div>
-
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-5 sm:gap-6">
-                    <div className="space-y-2">
-                      <Label htmlFor="email" className="text-black font-bold text-sm sm:text-base">Email Address *</Label>
-                      <Input
-                        id="email"
-                        name="email"
-                        type="email"
-                        value={formData.email}
-                        onChange={handleChange}
-                        required
-                        placeholder="john.smith@example.com"
-                        className="border-2 border-gray-300 focus:border-black text-sm sm:text-base"
-                      />
-                    </div>
-
-                    <div className="space-y-2">
-                      <Label htmlFor="phone" className="text-black font-bold text-sm sm:text-base">Phone Number *</Label>
-                      <Input
-                        id="phone"
-                        name="phone"
-                        type="tel"
-                        value={formData.phone}
-                        onChange={handleChange}
-                        required
-                        placeholder="01234 567890"
-                        className="border-2 border-gray-300 focus:border-black text-sm sm:text-base"
-                      />
-                    </div>
-                  </div>
-
-                  <div className="space-y-2">
-                    <Label htmlFor="subject" className="text-black font-bold text-sm sm:text-base">Subject *</Label>
-                    <Input
-                      id="subject"
-                      name="subject"
-                      value={formData.subject}
-                      onChange={handleChange}
-                      required
-                      placeholder="Referral Enquiry / General Question"
-                      className="border-2 border-gray-300 focus:border-black text-sm sm:text-base"
-                    />
-                  </div>
-
-                  <div className="space-y-2">
-                    <Label htmlFor="message" className="text-black font-bold text-sm sm:text-base">Message *</Label>
-                    <Textarea
-                      id="message"
-                      name="message"
-                      value={formData.message}
-                      onChange={handleChange}
-                      required
-                      rows={6}
-                      placeholder="Please provide details about your enquiry..."
-                      className="resize-none border-2 border-gray-300 focus:border-black text-sm sm:text-base"
-                    />
-                  </div>
-
-                  <div className="bg-gray-50 border-2 border-black rounded-lg p-4 sm:p-6">
-                    <p className="text-xs sm:text-sm text-gray-700">
-                      <strong className="text-black">Data Protection:</strong> Your information will be handled in accordance with 
-                      GDPR and our privacy policy. We will only use your details to respond to your enquiry.
-                    </p>
-                  </div>
-
-                  <Button
-                    type="submit"
-                    size="lg"
-                    className="w-full bg-black text-white hover:bg-gray-800 text-sm sm:text-base py-5 sm:py-6"
-                    disabled={isSubmitting}
-                  >
-                    {isSubmitting ? (
-                      "Sending..."
-                    ) : (
-                      <>
-                        Send Message <Send className="ml-2 h-4 w-4 sm:h-5 sm:w-5" />
-                      </>
-                    )}
-                  </Button>
-                </form>
-              </CardContent>
-            </Card>
-
-            <div className="mt-6 sm:mt-8 bg-gray-50 border-2 border-black rounded-lg p-6 sm:p-8">
+            <div className="bg-gray-50 border-2 border-black rounded-lg p-6 sm:p-8">
               <h3 className="text-lg sm:text-xl font-bold text-black mb-3 sm:mb-4">Emergency Contacts</h3>
               <p className="text-sm sm:text-base text-gray-700 mb-3 sm:mb-4">
                 For urgent safeguarding concerns or emergencies:

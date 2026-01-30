@@ -57,7 +57,7 @@ export default function ApplyPage() {
             </div>
             <h1 className="text-5xl md:text-6xl font-bold mb-6 tracking-tight">Application Process</h1>
             <p className="text-xl text-gray-300 leading-relaxed">
-              Information for local authorities and social workers about making referrals to Luke 9:48 Children's Home
+              Information for local authorities and social workers about making referrals to Luke 948 Children's Home
             </p>
           </div>
         </div>

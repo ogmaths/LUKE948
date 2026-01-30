@@ -33,7 +33,7 @@ export default function Layout({ children }: LayoutProps) {
             <Link to="/" className="hover:opacity-80 transition-opacity">
               <img 
                 src="/images/Logo Luke948-Photoroom.png" 
-                alt="Luke 9:48 Homes Logo" 
+                alt="Luke 948 Homes Logo" 
                 className="h-20 w-20 md:h-40 md:w-40 object-contain brightness-0 invert"
               />
             </Link>
@@ -104,7 +104,7 @@ export default function Layout({ children }: LayoutProps) {
               <div className="flex items-center space-x-3 mb-4">
                 <img 
                   src={logoUrl} 
-                  alt="Luke 9:48" 
+                  alt="Luke 948" 
                   className="h-10 w-auto object-contain"
                 />
               </div>
@@ -145,7 +145,7 @@ export default function Layout({ children }: LayoutProps) {
           <div className="border-t border-gray-800 mt-8 pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
               <p className="text-gray-400 text-xs">
-                © {new Date().getFullYear()} Luke 9:48 Homes. All rights reserved.
+                © {new Date().getFullYear()} Luke 948 Homes. All rights reserved.
               </p>
               <div className="flex space-x-6 text-xs text-gray-400">
                 <a href="#" className="hover:text-white transition-colors">

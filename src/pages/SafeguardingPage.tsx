@@ -111,7 +111,7 @@ export default function SafeguardingPage() {
             <div className="bg-gray-50 border-2 border-black rounded-lg p-8 md:p-12 mb-12">
               <div className="prose prose-lg max-w-none">
                 <p className="text-xl text-gray-700 leading-relaxed mb-6">
-                  Luke 9:48 Homes is committed to safeguarding and promoting the welfare of all 
+                  Luke 948 Homes is committed to safeguarding and promoting the welfare of all 
                   children and young people in our care. We recognise that safeguarding is everyone's 
                   responsibility and that all children have the right to be protected from harm.
                 </p>
