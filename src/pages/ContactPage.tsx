@@ -1,4 +1,5 @@
 import { MapPin, Phone, Mail, Clock, ArrowRight } from "lucide-react";
+import { Card, CardContent } from "@/components/ui/card";
 
 export default function ContactPage() {
 
@@ -67,7 +68,44 @@ export default function ContactPage() {
         </div>
       </section>
 
-      {/* Contact Form */}
+      {/* How to Make a Referral */}
+      <section className="py-16 sm:py-24 md:py-32 bg-gray-50">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-3xl mx-auto">
+            <div className="bg-white border-2 border-black rounded-lg p-6 sm:p-8">
+              <h3 className="text-2xl sm:text-3xl font-bold text-black mb-4 sm:mb-6">Make a Referral</h3>
+              <p className="text-base sm:text-lg text-gray-700 mb-6 sm:mb-8 leading-relaxed">
+                To make a referral for a child who needs our support, please contact us using the details below. Our team is ready to discuss your referral and provide guidance through the process.
+              </p>
+              
+              <div className="space-y-4 sm:space-y-6">
+                <div className="border-l-4 border-black pl-4 sm:pl-6">
+                  <p className="text-sm font-semibold text-gray-600 mb-2">Email</p>
+                  <a href="mailto:info@luke948homes.co.uk" className="text-lg sm:text-xl font-bold text-black hover:underline break-all">
+                    info@luke948homes.co.uk
+                  </a>
+                </div>
+                
+                <div className="border-l-4 border-black pl-4 sm:pl-6">
+                  <p className="text-sm font-semibold text-gray-600 mb-2">Phone</p>
+                  <a href="tel:07497023902" className="text-lg sm:text-xl font-bold text-black hover:underline">
+                    07497 023902
+                  </a>
+                </div>
+              </div>
+
+              <div className="mt-8 pt-8 border-t-2 border-gray-200">
+                <p className="text-sm text-gray-600 mb-4">Our team typically responds to referrals within 24-48 hours during business hours.</p>
+                <p className="text-sm text-gray-600">
+                  <strong>Office Hours:</strong> Monday - Friday, 9am - 5pm. For emergencies outside these hours, please contact emergency services.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Emergency Contacts */}
       <section className="py-16 sm:py-24 md:py-32 bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto">
