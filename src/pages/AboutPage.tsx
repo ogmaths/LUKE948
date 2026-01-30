@@ -8,32 +8,32 @@ export default function AboutPage() {
     {
       icon: Heart,
       title: "Trauma-Informed Care",
-      description: "Specialized support from staff trained in trauma-informed practices and cultural sensitivity.",
+      description: "PACE model approach with Playfulness, Acceptance, Curiosity, and Empathy at the core of everything we do.",
     },
     {
       icon: BookOpen,
       title: "Education Support",
-      description: "Assistance with school enrollment, language learning, and educational development.",
+      description: "Coordination with schools and training providers to support each child's educational development.",
     },
     {
       icon: Users,
       title: "Therapeutic Services",
-      description: "Access to counseling, mental health support, and therapeutic interventions.",
+      description: "Positive Behaviour Support (PBS) and attachment-based interventions in a safe, responsive environment.",
     },
     {
       icon: Globe,
-      title: "Cultural Integration",
-      description: "Programs that honor cultural backgrounds while supporting integration into the community.",
+      title: "Multi-Agency Working",
+      description: "Close partnership with social workers, health professionals, educators, and other key stakeholders.",
     },
     {
       icon: Home,
-      title: "Life Skills",
-      description: "Training in daily living skills, independence, and preparation for adulthood.",
+      title: "Structured Environment",
+      description: "Consistent routines and boundaries that provide safety, predictability, and emotional regulation.",
     },
     {
       icon: Award,
-      title: "Advocacy",
-      description: "Support with legal processes, asylum applications, and accessing essential services.",
+      title: "Outcome-Focused",
+      description: "Evidence-based services focused on building confidence, resilience, and hope for the future.",
     },
   ];
 
@@ -85,10 +85,10 @@ export default function AboutPage() {
               About Us
             </div>
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 tracking-tight px-4">
-              About Luke 9:48<br/>Children's Home
+              About Luke 9:48<br/>Homes
             </h1>
             <p className="text-base sm:text-lg md:text-xl text-gray-300 leading-relaxed px-4">
-              A specialist children's home in Maidstone dedicated to supporting unaccompanied asylum-seeking children aged 13-17
+              A specialist children's home registered under the Emotional and Behavioural category, supporting looked after children aged 11-16 with therapeutic care at Alkham House, Maidstone
             </p>
           </div>
         </div>
@@ -111,9 +111,9 @@ export default function AboutPage() {
                   <div className="bg-black group-hover:bg-white w-12 h-12 sm:w-16 sm:h-16 rounded-lg flex items-center justify-center mb-4 sm:mb-6 transition-colors">
                     <Home className="h-6 w-6 sm:h-8 sm:w-8 text-white group-hover:text-black transition-colors" />
                   </div>
-                  <h3 className="text-lg sm:text-xl font-bold text-black group-hover:text-white mb-2 sm:mb-3 transition-colors">Purpose-Built</h3>
+                  <h3 className="text-lg sm:text-xl font-bold text-black group-hover:text-white mb-2 sm:mb-3 transition-colors">Alkham House</h3>
                   <p className="text-sm sm:text-base text-gray-600 group-hover:text-gray-300 transition-colors">
-                    Specifically designed to meet the unique needs of unaccompanied asylum-seeking children
+                    73 Alkham Road, ME14 5PE — our purpose-built home for one child
                   </p>
                 </CardContent>
               </Card>
@@ -125,7 +125,7 @@ export default function AboutPage() {
                   </div>
                   <h3 className="text-lg sm:text-xl font-bold text-black group-hover:text-white mb-2 sm:mb-3 transition-colors">Ofsted Registered</h3>
                   <p className="text-sm sm:text-base text-gray-600 group-hover:text-gray-300 transition-colors">
-                    Operating in full compliance with all regulatory requirements and highest standards
+                    Registered under the Emotional and Behavioural category with full compliance
                   </p>
                 </CardContent>
               </Card>
@@ -135,9 +135,9 @@ export default function AboutPage() {
                   <div className="bg-black group-hover:bg-white w-12 h-12 sm:w-16 sm:h-16 rounded-lg flex items-center justify-center mb-4 sm:mb-6 transition-colors">
                     <Heart className="h-6 w-6 sm:h-8 sm:w-8 text-white group-hover:text-black transition-colors" />
                   </div>
-                  <h3 className="text-lg sm:text-xl font-bold text-black group-hover:text-white mb-2 sm:mb-3 transition-colors">Individualized Care</h3>
+                  <h3 className="text-lg sm:text-xl font-bold text-black group-hover:text-white mb-2 sm:mb-3 transition-colors">Therapeutic Care</h3>
                   <p className="text-sm sm:text-base text-gray-600 group-hover:text-gray-300 transition-colors">
-                    Trauma-informed and culturally sensitive approach tailored to each young person
+                    PACE model and trauma-informed approach tailored to each child's needs
                   </p>
                 </CardContent>
               </Card>
@@ -146,17 +146,86 @@ export default function AboutPage() {
             <div className="bg-gray-50 border-2 border-black rounded-lg p-6 sm:p-8 md:p-12">
               <div className="prose prose-lg max-w-none">
                 <p className="text-lg sm:text-xl text-gray-700 leading-relaxed mb-4 sm:mb-6">
-                  Luke 9:48 Children's Home is a purpose-built children's home in Maidstone, Kent, specifically designed 
-                  to meet the unique needs of unaccompanied asylum-seeking children. We provide a safe, 
-                  stable environment where young people can begin to heal from their experiences and build 
-                  positive futures.
+                  Luke 9:48 Homes was established with the purpose of delivering bespoke, client-centred services by offering targeted support for vulnerable children. We operate as a children's home under one registration — <strong>Alkham House</strong> at 73 Alkham Road, ME14 5PE — registered under the Emotional and Behavioural category.
+                </p>
+                <p className="text-base sm:text-lg text-gray-600 leading-relaxed mb-4 sm:mb-6">
+                  Our home is specifically designed to meet the needs of one child presenting with communication difficulties, sensory needs, emotional distress, and behavioural challenges linked to neurodevelopmental conditions, on a medium-to-long-term basis. We support looked after children aged 11 to 16 who are judged as particularly vulnerable by children's social care.
                 </p>
                 <p className="text-base sm:text-lg text-gray-600 leading-relaxed">
-                  We understand that each young person who comes to us has their own unique story, culture, 
-                  and needs. Our approach is individualized, trauma-informed, and culturally sensitive, 
-                  ensuring that every child receives the specific support they need to thrive.
+                  We specialise in supporting children and young people with Emotional and Behavioural Difficulties, including those who have experienced trauma, attachment disruptions, or instability in previous placements. We offer a therapeutic and structured living environment to promote safety, consistency, emotional wellbeing, and long-term stability.
                 </p>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Ethos & Approach Section */}
+      <section className="py-16 sm:py-24 md:py-32 bg-gray-50">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-5xl mx-auto">
+            <div className="text-center mb-12 sm:mb-16">
+              <div className="inline-block mb-3 sm:mb-4 px-3 sm:px-4 py-1.5 sm:py-2 bg-black text-white rounded-full text-xs font-bold uppercase tracking-wider">
+                Our Philosophy
+              </div>
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-black mb-4 sm:mb-6 px-4">Ethos, Outcomes & Approach</h2>
+            </div>
+
+            <div className="bg-white border-2 border-black rounded-lg p-6 sm:p-8 md:p-12 mb-8">
+              <div className="prose prose-lg max-w-none">
+                <p className="text-lg sm:text-xl text-gray-700 leading-relaxed mb-4 sm:mb-6">
+                  Children who enter the care system often present with complex needs resulting from adverse childhood experiences, trauma, and disrupted attachments. These needs must be carefully assessed, understood, and addressed in order to improve long-term outcomes and support their journey toward stability and independence.
+                </p>
+                <p className="text-base sm:text-lg text-gray-600 leading-relaxed mb-4 sm:mb-6">
+                  Luke 9:48 Homes provides homes within a trauma-informed and child-centred framework. Each placement is designed to provide the safety, consistency, and attention needed to help children regulate, rebuild trust, and begin healing.
+                </p>
+              </div>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+              <div className="bg-white border-2 border-black rounded-lg p-6">
+                <h3 className="text-xl font-bold text-black mb-4">PACE Model</h3>
+                <p className="text-gray-600 mb-4">Our therapeutic approach is grounded in:</p>
+                <ul className="space-y-2 text-gray-700">
+                  <li className="flex items-start gap-2">
+                    <span className="font-bold text-black">P</span> - Playfulness
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="font-bold text-black">A</span> - Acceptance
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="font-bold text-black">C</span> - Curiosity
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="font-bold text-black">E</span> - Empathy
+                  </li>
+                </ul>
+              </div>
+
+              <div className="bg-white border-2 border-black rounded-lg p-6">
+                <h3 className="text-xl font-bold text-black mb-4">Our Interventions</h3>
+                <ul className="space-y-3 text-gray-700">
+                  <li className="flex items-start gap-2">
+                    <span className="text-black">•</span> Positive Behaviour Support (PBS)
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-black">•</span> Attachment-based interventions
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-black">•</span> De-escalation techniques
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-black">•</span> Relational practice
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="bg-black text-white rounded-lg p-6 sm:p-8">
+              <h3 className="text-xl font-bold mb-4">Partnership Working</h3>
+              <p className="text-gray-300 leading-relaxed">
+                We recognise the immense responsibilities faced by local authorities and the importance of collaboration across agencies. Luke 9:48 Homes works in close partnership with social workers, health professionals, educators, and other key stakeholders to contribute meaningfully to each child's assessment, care planning, intervention, and progress monitoring. At the heart of everything we do is a commitment to positive outcomes — helping children move toward a future defined by confidence, resilience, and hope.
+              </p>
             </div>
           </div>
         </div>
@@ -278,9 +347,9 @@ export default function AboutPage() {
                 <h3 className="text-2xl md:text-3xl font-bold text-black mb-4">Our Commitment</h3>
                 <p className="text-lg text-gray-700 leading-relaxed">
                   All staff members are carefully recruited, thoroughly vetted, and receive ongoing training 
-                  in safeguarding, trauma-informed care, cultural competency, and working with unaccompanied 
-                  asylum-seeking children. We are committed to continuous professional development to ensure 
-                  we provide the highest quality care.
+                  in safeguarding, trauma-informed care, PACE model, and Positive Behaviour Support. Staff are trained 
+                  to use de-escalation techniques and build trusting relationships through relational practice. We are 
+                  committed to continuous professional development to ensure we provide the highest quality care.
                 </p>
               </div>
             </div>

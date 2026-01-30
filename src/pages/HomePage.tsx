@@ -7,30 +7,30 @@ export default function HomePage() {
   const values = [
     {
       icon: Heart,
-      title: "Compassion",
-      description: "We provide a warm, caring environment where every child feels valued and supported.",
+      title: "Trauma-Informed",
+      description: "PACE model (Playfulness, Acceptance, Curiosity, Empathy) and trauma-informed care principles guide everything we do.",
     },
     {
       icon: Shield,
-      title: "Safety",
-      description: "Creating a secure space where children can heal, grow, and thrive with confidence.",
+      title: "Safety & Stability",
+      description: "Creating a secure, structured environment where children can regulate, rebuild trust, and begin healing.",
     },
     {
       icon: Users,
-      title: "Community",
-      description: "Building connections and belonging through cultural sensitivity and understanding.",
+      title: "Collaborative",
+      description: "Working in close partnership with social workers, health professionals, educators, and other key stakeholders.",
     },
     {
       icon: HomeIcon,
-      title: "Belonging",
-      description: "Making every child feel at home with dignity, respect, and unconditional acceptance.",
+      title: "Child-Centred",
+      description: "Every decision is made with the child's best interests in mind, helping them build confidence, resilience, and hope.",
     },
   ];
 
   const stats = [
     { icon: Target, value: "100%", label: "Ofsted Compliant" },
-    { icon: Award, value: "24/7", label: "Care & Support" },
-    { icon: Sparkles, value: "3", label: "Young People" },
+    { icon: Award, value: "24/7", label: "Therapeutic Support" },
+    { icon: Sparkles, value: "2", label: "Young People" },
   ];
 
   return (
@@ -41,10 +41,10 @@ export default function HomePage() {
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold mb-6 sm:mb-8 leading-tight tracking-tight">
               Luke 9:48<br/>
-              <span className="text-gray-400">Children's Home</span>
+              <span className="text-gray-400">Homes</span>
             </h1>
             <p className="text-base sm:text-lg md:text-xl mb-8 sm:mb-12 text-gray-300 leading-relaxed max-w-3xl mx-auto px-4">
-              A nurturing residential home in Maidstone, Kent — supporting up to three unaccompanied asylum-seeking children aged 13–17 with trauma-informed care, emotional support, and a strong focus on belonging and personal growth.
+              A specialist children's home in Maidstone, Kent — registered under the Emotional and Behavioural category, supporting one looked after child aged 11–16 with therapeutic care, emotional support, and a structured environment for long-term stability.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center px-4">
               <Button asChild size="lg" className="bg-white text-black hover:bg-gray-100 text-sm sm:text-base px-6 sm:px-8 py-5 sm:py-6 w-full sm:w-auto">
@@ -110,7 +110,7 @@ export default function HomePage() {
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 sm:mb-8 px-4">Our Mission</h2>
             <p className="text-lg sm:text-xl md:text-2xl leading-relaxed text-gray-300 px-4">
-              We provide a <span className="font-bold text-white">safe, stable, and culturally sensitive</span> environment where young people can heal from past experiences, develop independence and build confidence for the future.
+              We provide homes within a <span className="font-bold text-white">trauma-informed and child-centred framework</span>. We specialise in supporting children with Emotional and Behavioural Difficulties, offering high levels of therapeutic support in nurturing, structured environments designed to help them regulate, rebuild trust, and begin healing.
             </p>
             <div className="mt-8 sm:mt-12">
               <Button asChild size="lg" className="bg-white text-black hover:bg-gray-100 text-sm sm:text-base px-6 sm:px-8 py-5 sm:py-6 w-full sm:w-auto">
@@ -133,32 +133,32 @@ export default function HomePage() {
                   What We Offer
                 </div>
                 <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-black mb-4 sm:mb-6">
-                  Creating a Home, Not Just a House
+                  Alkham House, Maidstone
                 </h2>
                 <p className="text-base sm:text-lg text-gray-600 leading-relaxed">
-                  Our home in Maidstone provides a warm, welcoming environment where young people can feel safe and supported.
+                  Our home at 73 Alkham Road (ME14 5PE) provides a therapeutic and structured living environment for children who may require additional support to promote safety, consistency, emotional wellbeing, and long-term stability.
                 </p>
               </div>
 
               <div className="space-y-4 sm:space-y-6">
                 <div className="flex gap-3 sm:gap-4 border-l-4 border-black pl-4 sm:pl-6">
                   <div>
-                    <h3 className="text-lg sm:text-xl font-bold text-black mb-1 sm:mb-2">Trauma-Informed Care</h3>
-                    <p className="text-sm sm:text-base text-gray-600">Specialized support from trained professionals who understand complex needs</p>
+                    <h3 className="text-lg sm:text-xl font-bold text-black mb-1 sm:mb-2">PACE Model Approach</h3>
+                    <p className="text-sm sm:text-base text-gray-600">Playfulness, Acceptance, Curiosity, and Empathy guide our therapeutic interventions</p>
                   </div>
                 </div>
 
                 <div className="flex gap-3 sm:gap-4 border-l-4 border-black pl-4 sm:pl-6">
                   <div>
-                    <h3 className="text-lg sm:text-xl font-bold text-black mb-1 sm:mb-2">Cultural Sensitivity</h3>
-                    <p className="text-sm sm:text-base text-gray-600">Respecting backgrounds while supporting integration into the community</p>
+                    <h3 className="text-lg sm:text-xl font-bold text-black mb-1 sm:mb-2">Positive Behaviour Support</h3>
+                    <p className="text-sm sm:text-base text-gray-600">De-escalation techniques and attachment-based interventions in a safe environment</p>
                   </div>
                 </div>
 
                 <div className="flex gap-3 sm:gap-4 border-l-4 border-black pl-4 sm:pl-6">
                   <div>
-                    <h3 className="text-lg sm:text-xl font-bold text-black mb-1 sm:mb-2">Individual Support</h3>
-                    <p className="text-sm sm:text-base text-gray-600">Personalized care plans tailored to each young person's unique needs</p>
+                    <h3 className="text-lg sm:text-xl font-bold text-black mb-1 sm:mb-2">Multi-Agency Partnership</h3>
+                    <p className="text-sm sm:text-base text-gray-600">Close collaboration with social workers, health professionals, and educators</p>
                   </div>
                 </div>
               </div>
@@ -167,16 +167,16 @@ export default function HomePage() {
             <div className="bg-gray-50 border-2 border-black p-6 sm:p-8">
               <div className="space-y-4 sm:space-y-6">
                 <div className="bg-white border-2 border-black p-4 sm:p-6">
-                  <h4 className="text-base sm:text-lg font-bold text-black mb-2">🏠 Safe Environment</h4>
-                  <p className="text-sm sm:text-base text-gray-600">A secure, welcoming home where young people can thrive</p>
+                  <h4 className="text-base sm:text-lg font-bold text-black mb-2">🏠 Emotional & Behavioural Support</h4>
+                  <p className="text-sm sm:text-base text-gray-600">Specialist care for children with EBD, trauma, and attachment difficulties</p>
                 </div>
                 <div className="bg-white border-2 border-black p-4 sm:p-6">
-                  <h4 className="text-base sm:text-lg font-bold text-black mb-2">📚 Education Support</h4>
-                  <p className="text-sm sm:text-base text-gray-600">Help with school enrollment and language learning</p>
+                  <h4 className="text-base sm:text-lg font-bold text-black mb-2">📚 Education Coordination</h4>
+                  <p className="text-sm sm:text-base text-gray-600">Liaison with schools and support for educational development</p>
                 </div>
                 <div className="bg-white border-2 border-black p-4 sm:p-6">
-                  <h4 className="text-base sm:text-lg font-bold text-black mb-2">🌟 Life Skills</h4>
-                  <p className="text-sm sm:text-base text-gray-600">Training for independence and preparation for adulthood</p>
+                  <h4 className="text-base sm:text-lg font-bold text-black mb-2">🌟 Long-Term Stability</h4>
+                  <p className="text-sm sm:text-base text-gray-600">Medium-to-long-term placements for ages 11-16</p>
                 </div>
               </div>
             </div>

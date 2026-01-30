@@ -33,7 +33,7 @@ export default function Layout({ children }: LayoutProps) {
             <Link to="/" className="hover:opacity-80 transition-opacity">
               <img 
                 src="/images/Logo Luke948-Photoroom.png" 
-                alt="Luke948 Children's Home Logo" 
+                alt="Luke 9:48 Homes Logo" 
                 className="h-20 w-20 md:h-40 md:w-40 object-contain brightness-0 invert"
               />
             </Link>
@@ -109,7 +109,7 @@ export default function Layout({ children }: LayoutProps) {
                 />
               </div>
               <p className="text-gray-400 leading-relaxed text-sm">
-                Providing safe, nurturing care for unaccompanied asylum-seeking children in Maidstone.
+                Providing therapeutic care for vulnerable children with Emotional and Behavioural Difficulties at Alkham House, Maidstone.
               </p>
             </div>
 
@@ -134,9 +134,9 @@ export default function Layout({ children }: LayoutProps) {
             <div>
               <h3 className="text-sm font-bold mb-4 uppercase tracking-wider">Contact</h3>
               <ul className="space-y-2 text-gray-400 text-sm">
+                <li>73 Alkham Road, ME14 5PE</li>
                 <li>Maidstone, Kent</li>
-                <li>Phone: 01234 567890</li>
-                <li>Email: info@luke948home.org.uk</li>
+                <li>Email: info@luke948homes.org.uk</li>
                 <li className="pt-2">
                   <span className="text-white font-bold">Emergency: 999</span>
                 </li>
@@ -147,7 +147,7 @@ export default function Layout({ children }: LayoutProps) {
           <div className="border-t border-gray-800 mt-8 pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
               <p className="text-gray-400 text-xs">
-                © {new Date().getFullYear()} Luke 9:48 Children's Home. All rights reserved.
+                © {new Date().getFullYear()} Luke 9:48 Homes. All rights reserved.
               </p>
               <div className="flex space-x-6 text-xs text-gray-400">
                 <a href="#" className="hover:text-white transition-colors">
