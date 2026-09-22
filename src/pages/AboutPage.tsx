@@ -59,18 +59,18 @@ export default function AboutPage() {
       icon: Target
     },
     {
-      role: "Deputy Manager",
-      description: "Supports daily operations and ensures high standards of care are maintained.",
+      role: "Responsible Individual",
+      description: "Holds overall accountability for the home's compliance, quality of care, and Ofsted registration.",
       icon: Award
     },
     {
-      role: "Residential Care Workers",
+      role: "Support Workers",
       description: "Dedicated team providing 24/7 support, guidance, and care to all young people.",
       icon: Users
     },
     {
-      role: "Education Coordinator",
-      description: "Facilitates educational opportunities and liaises with schools and training providers.",
+      role: "Senior Support Worker",
+      description: "Leads shifts, mentors the care team, and ensures consistent day-to-day practice.",
       icon: BookOpen
     },
   ];
