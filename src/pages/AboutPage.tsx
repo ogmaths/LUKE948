@@ -88,7 +88,7 @@ export default function AboutPage() {
               About Luke 948<br/>Homes
             </h1>
             <p className="text-base sm:text-lg md:text-xl text-gray-300 leading-relaxed px-4">
-              A specialist children's home registered under the Emotional and Behavioural category, supporting looked after children aged 11-16 with therapeutic care at Alkham House, Maidstone
+              A specialist children's home registered under the Emotional and Behavioural category, supporting looked after children aged 11-17 with therapeutic care at Alkham House, Maidstone
             </p>
           </div>
         </div>
@@ -149,7 +149,7 @@ export default function AboutPage() {
                   Luke 948 Homes was established with the purpose of delivering bespoke, client-centred services by offering targeted support for vulnerable children. We operate as a children's home under one registration - <strong>Alkham House</strong> - registered under the Emotional and Behavioural category.
                 </p>
                 <p className="text-base sm:text-lg text-gray-600 leading-relaxed mb-4 sm:mb-6">
-                  Our home is specifically designed to meet the needs of one child presenting with communication difficulties, sensory needs, emotional distress, and behavioural challenges linked to neurodevelopmental conditions, on a medium-to-long-term basis. We support looked after children aged 11 to 16 who are judged as particularly vulnerable by children's social care.
+                  Our home is specifically designed to meet the needs of one child presenting with communication difficulties, sensory needs, emotional distress, and behavioural challenges linked to neurodevelopmental conditions, on a medium-to-long-term basis. We support looked after children aged 11 to 17 who are judged as particularly vulnerable by children's social care.
                 </p>
                 <p className="text-base sm:text-lg text-gray-600 leading-relaxed">
                   We specialise in supporting children and young people with Emotional and Behavioural Difficulties, including those who have experienced trauma, attachment disruptions, or instability in previous placements. We offer a therapeutic and structured living environment to promote safety, consistency, emotional wellbeing, and long-term stability.

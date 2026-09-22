@@ -40,7 +40,7 @@ export default function HomePage() {
               <span className="text-gray-400">Homes</span>
             </h1>
             <p className="text-base sm:text-lg md:text-xl mb-8 sm:mb-12 text-gray-300 leading-relaxed max-w-3xl mx-auto px-4">
-              A specialist children's home in Maidstone, Kent - registered under the Emotional and Behavioural category, supporting one looked after child aged 11–16 with therapeutic care, emotional support, and a structured environment for long-term stability.
+              A specialist children's home in Maidstone, Kent - registered under the Emotional and Behavioural category, supporting one looked after child aged 11–17 with therapeutic care, emotional support, and a structured environment for long-term stability.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center px-4">
               <Button asChild size="lg" className="bg-white text-black hover:bg-gray-100 text-sm sm:text-base px-6 sm:px-8 py-5 sm:py-6 w-full sm:w-auto">
@@ -160,7 +160,7 @@ export default function HomePage() {
                 </div>
                 <div className="bg-white border-2 border-black p-4 sm:p-6">
                   <h4 className="text-base sm:text-lg font-bold text-black mb-2">🌟 Long-Term Stability</h4>
-                  <p className="text-sm sm:text-base text-gray-600">Medium-to-long-term placements for ages 11-16</p>
+                  <p className="text-sm sm:text-base text-gray-600">Medium-to-long-term placements for ages 11-17</p>
                 </div>
               </div>
             </div>
