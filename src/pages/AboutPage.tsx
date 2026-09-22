@@ -40,13 +40,15 @@ export default function AboutPage() {
   const directors = [
     {
       name: "Clinton",
-      role: "Service Manager & Co-Founder",
+      role: "Co-Founder & Director",
+      designation: "Service Manager",
       image: "/images/IMG_1982 3.jpg",
       bio: "My passion for care began long before my journey in business. As a teenager, I became a full-time carer for my late father - an experience that taught me the true meaning of compassion, patience, and responsibility. Later, while working in a nursery, I discovered how much I loved creating safe, nurturing spaces where children could grow, feel supported, and thrive.\n\nThose early experiences shaped my purpose to build environments where people feel at home, understood, and valued. Over the years, I've carried that same heart into everything I do, combining my hands-on experience in care with my ability to build and manage homes that promote wellbeing and belonging.\n\nI believe that a child's environment shapes their entire future - their values, confidence, and sense of identity. Having cared for my father and faced loss at a young age, I understand the lifelong impact that love, structure, and emotional stability can create. That's why I'm dedicated to building a children's home where care isn't occasional - it's constant. A place where every child feels seen, supported, and loved 100% of the time."
     },
     {
       name: "Ezekiel",
-      role: "Responsible Individual & Co-Founder",
+      role: "Co-Founder & Director",
+      designation: "Responsible Individual",
       image: "/images/WhatsApp Image 2025-10-22 at 18.06.05.jpeg",
       bio: "My name is Ezekiel Bademosi, and my journey has always been rooted in helping children reach their full potential. I began my career working in a primary school, where I spent over five years supporting children from diverse backgrounds including those with special educational needs, learning difficulties, and challenging family circumstances.\n\nDuring that time, I developed a deep passion for supporting young people, especially those who've faced difficult upbringings. I saw firsthand how the right environment, care, and encouragement can completely change a child's path in life.\n\nAfter leaving my full-time role in education, I transitioned into property investment and development, building my own rental portfolio and learning the ins and outs of creating safe, comfortable, and nurturing spaces.\n\nNow, I'm combining both of my passions-property and child development through the creation of a children's home. This project represents more than just a professional venture for me; it's a personal mission. My goal is to create a home where every child feels safe, valued, and supported, and where they can grow into confident, capable individuals with hope for the future.\n\nFor me, this work is deeply fulfilling, it allows me to use my skills to make a lasting impact in the lives of children who need it most. Every child deserves a better future, a safer home, and a caring environment where they can thrive and that's exactly what I aim to provide."
     }
@@ -238,7 +240,7 @@ export default function AboutPage() {
             <div className="inline-block mb-3 sm:mb-4 px-3 sm:px-4 py-1.5 sm:py-2 bg-white text-black rounded-full text-xs font-bold uppercase tracking-wider">
               Leadership
             </div>
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 sm:mb-6 px-4">Our Directors</h2>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 sm:mb-6 px-4">Our Founders &amp; Directors</h2>
             <p className="text-base sm:text-lg md:text-xl text-gray-300 max-w-2xl mx-auto px-4">
               Meet the founders dedicated to creating a home where every child feels valued
             </p>
@@ -262,7 +264,10 @@ export default function AboutPage() {
                 <div className="w-full lg:w-2/3">
                   <div className="bg-white text-black rounded-lg p-6 sm:p-8 md:p-10">
                     <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-2">{director.name}</h3>
-                    <p className="text-base sm:text-lg text-gray-600 mb-4 sm:mb-6 font-semibold">{director.role}</p>
+                    <p className="text-lg sm:text-xl text-black font-bold mb-2">{director.role}</p>
+                    <p className="inline-block mb-4 sm:mb-6 px-3 py-1 border border-gray-300 rounded-full text-[11px] font-bold uppercase tracking-wider text-gray-600">
+                      {director.designation}
+                    </p>
                     <div className="prose prose-lg max-w-none">
                       {director.bio.split('\n\n').map((paragraph, i) => (
                         <p key={i} className="text-sm sm:text-base text-gray-700 leading-relaxed mb-3 sm:mb-4 last:mb-0">
